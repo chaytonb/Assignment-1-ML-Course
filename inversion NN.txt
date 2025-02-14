@@ -1,0 +1,11 @@
+Idea:
+- Produce a number of runs of SNAP from many different NPPs in/around Europe
+- Select a number of locations where there will be 'measurement stations' which take point measurements of the dispersion field
+- Genreate a dataset (sort of like the ETEX) observations 
+- Inputs to the NN will then be the measurements and some number of meteorological variables
+- The true values be a map where the values are the distance to the true source location
+- NN should output a map with likelihood of source locations for a given set of observations and meteorology
+- Extension of this would be to add noise of course, as in the real world there will be noise in the measurements
+
+Input variables:
+- The wind speed
